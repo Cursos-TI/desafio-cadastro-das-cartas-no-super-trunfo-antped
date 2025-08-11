@@ -36,7 +36,54 @@ int main() {
     float area2;
     float pib2;
     int pontosTuristicos2;
+    
+// ===== Entrada de dados da Carta 1 =====
+    printf("Digite os dados da Carta 1:\n");
 
+    printf("Estado (A-H): ");
+    scanf(" %c", &estado1);
+
+    printf("Codigo da Carta (ex: A01): ");
+    scanf("%s", codigo1);
+
+    printf("Nome da Cidade: ");
+    scanf(" %[^\n]", nomeCidade1); // Lê até a quebra de linha
+
+    printf("Populacao: ");
+    scanf("%d", &populacao1);
+
+    printf("Area (km²): ");
+    scanf("%f", &area1);
+
+    printf("PIB (em bilhoes de reais): ");
+    scanf("%f", &pib1);
+
+    printf("Numero de Pontos Turisticos: ");
+    scanf("%d", &pontosTuristicos1);
+
+    // ===== Entrada de dados da Carta 2 =====
+    printf("\nDigite os dados da Carta 2:\n");
+
+    printf("Estado (A-H): ");
+    scanf(" %c", &estado2);
+
+    printf("Codigo da Carta (ex: B03): ");
+    scanf("%s", codigo2);
+
+    printf("Nome da Cidade: ");
+    scanf(" %[^\n]", nomeCidade2);
+
+    printf("Populacao: ");
+    scanf("%d", &populacao2);
+
+    printf("Area (km²): ");
+    scanf("%f", &area2);
+
+    printf("PIB (em bilhoes de reais): ");
+    scanf("%f", &pib2);
+
+    printf("Numero de Pontos Turisticos: ");
+    scanf("%d", &pontosTuristicos2);
 
     return 0;
 }
